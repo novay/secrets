@@ -1,0 +1,27 @@
+{
+    "name": "novay/secrets",
+    "description": "Secret Managers from Btekno.",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Noviyanto Rahmadi",
+            "email": "novay@btekno.id"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Novay\\Secret\\": "src/"
+        }
+    },
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Novay\\Secret\\SecretServiceProvider"
+            ]
+        }
+    }, 
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
